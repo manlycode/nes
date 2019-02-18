@@ -10,4 +10,4 @@ main.6502.nes: main.6502.asm
 
 .PHONY: run
 run: main.6502.nes
-	fceux $<
+	java -jar ../tools/nintaco/Nintaco.jar $<
